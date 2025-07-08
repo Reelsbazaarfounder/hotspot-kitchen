@@ -15,5 +15,6 @@ config.resolver.nodeModulesPaths = [
 
 // Clear any transformer cache issues
 config.transformer.minifierPath = 'metro-minify-terser';
+config.transformer.babelTransformerPath = require.resolve('metro-react-native-babel-transformer');
 
 module.exports = config;
