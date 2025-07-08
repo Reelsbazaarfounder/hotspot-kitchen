@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "Hotspot Kitchen",
+    "slug": "hotspot-kitchen-delivery",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/1750605723842.jpg",
+    "scheme": "hotspot-kitchen",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/images/1750605723842.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#DC2626"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hotspotkitchen.delivery",
+      "buildNumber": "1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/1750605723842.jpg",
+        "backgroundColor": "#DC2626"
+      },
+      "package": "com.hotspotkitchen.delivery",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/1750605723842.jpg"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "your-project-id"
+      }
+    }
+  }
+}
